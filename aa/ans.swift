@@ -7,10 +7,9 @@
 //
 
 import UIKit
-
 class ans: UIViewController {
 
-    @IBOutlet weak var ans: UILabel!
+    @IBOutlet weak var ans: UICountingLabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         var top:Double = 0
@@ -31,9 +30,10 @@ class ans: UIViewController {
         }
         else
         {
-            var real = top / (down*10)
+            var real:Double = top / (down*10)
             var realans = NSString(format: "%.3f",real)
-            ans.text = (realans) as String
+            ans.countFrom( ans.currentValue(), endValue: CGFloat(real) , duration: 1)
+         //   ans.text = (realans) as String
         }
 
     }

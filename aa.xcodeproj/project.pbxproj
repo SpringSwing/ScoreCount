@@ -10,13 +10,13 @@
 		045ED14B1B31AF0B00FF33AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED14A1B31AF0B00FF33AD /* AppDelegate.swift */; };
 		045ED14E1B31AF0B00FF33AD /* aa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 045ED14C1B31AF0B00FF33AD /* aa.xcdatamodeld */; };
 		045ED1551B31AF0B00FF33AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045ED1541B31AF0B00FF33AD /* Images.xcassets */; };
-		045ED1581B31AF0B00FF33AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045ED1561B31AF0B00FF33AD /* LaunchScreen.xib */; };
 		045ED1641B31AF0B00FF33AD /* aaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1631B31AF0B00FF33AD /* aaTests.swift */; };
 		045ED1701B31AF4C00FF33AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045ED16F1B31AF4C00FF33AD /* Main.storyboard */; };
 		045ED1721B31AF5200FF33AD /* ans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1711B31AF5200FF33AD /* ans.swift */; };
 		045ED1741B31AF5600FF33AD /* count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1731B31AF5600FF33AD /* count.swift */; };
 		045ED1761B31AF5A00FF33AD /* newCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1751B31AF5A00FF33AD /* newCell.swift */; };
 		045ED1781B31AF7F00FF33AD /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1771B31AF7F00FF33AD /* data.swift */; };
+		E6E3A2A21B3FFB5300B8BEA9 /* UICountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E3A2A11B3FFB5300B8BEA9 /* UICountingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,6 @@
 		045ED14A1B31AF0B00FF33AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045ED14D1B31AF0B00FF33AD /* aa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aa.xcdatamodel; sourceTree = "<group>"; };
 		045ED1541B31AF0B00FF33AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		045ED1571B31AF0B00FF33AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		045ED15D1B31AF0B00FF33AD /* aaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045ED1621B31AF0B00FF33AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045ED1631B31AF0B00FF33AD /* aaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaTests.swift; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		045ED1731B31AF5600FF33AD /* count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = count.swift; sourceTree = "<group>"; };
 		045ED1751B31AF5A00FF33AD /* newCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCell.swift; sourceTree = "<group>"; };
 		045ED1771B31AF7F00FF33AD /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		E6E3A2A11B3FFB5300B8BEA9 /* UICountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICountingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,8 @@
 				045ED1731B31AF5600FF33AD /* count.swift */,
 				045ED16F1B31AF4C00FF33AD /* Main.storyboard */,
 				045ED1751B31AF5A00FF33AD /* newCell.swift */,
-				045ED1561B31AF0B00FF33AD /* LaunchScreen.xib */,
 				045ED14C1B31AF0B00FF33AD /* aa.xcdatamodeld */,
+				E6E3A2A11B3FFB5300B8BEA9 /* UICountingLabel.swift */,
 				045ED1481B31AF0B00FF33AD /* Supporting Files */,
 			);
 			path = aa;
@@ -205,7 +205,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				045ED1701B31AF4C00FF33AD /* Main.storyboard in Resources */,
-				045ED1581B31AF0B00FF33AD /* LaunchScreen.xib in Resources */,
 				045ED1551B31AF0B00FF33AD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +225,7 @@
 			files = (
 				045ED1741B31AF5600FF33AD /* count.swift in Sources */,
 				045ED1761B31AF5A00FF33AD /* newCell.swift in Sources */,
+				E6E3A2A21B3FFB5300B8BEA9 /* UICountingLabel.swift in Sources */,
 				045ED14B1B31AF0B00FF33AD /* AppDelegate.swift in Sources */,
 				045ED1721B31AF5200FF33AD /* ans.swift in Sources */,
 				045ED1781B31AF7F00FF33AD /* data.swift in Sources */,
@@ -250,17 +250,6 @@
 			targetProxy = 045ED15E1B31AF0B00FF33AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		045ED1561B31AF0B00FF33AD /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				045ED1571B31AF0B00FF33AD /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		045ED1651B31AF0B00FF33AD /* Debug */ = {

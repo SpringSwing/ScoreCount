@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="feT-RZ-9sG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="feT-RZ-9sG">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -29,7 +29,7 @@
             </objects>
             <point key="canvasLocation" x="825" y="108"/>
         </scene>
-        <!--学分绩点-->
+        <!--绩点预测-->
         <scene sceneID="Wyp-Mp-Zn8">
             <objects>
                 <viewController id="E7F-6x-Saf" customClass="count" customModule="aa" customModuleProvider="target" sceneMemberID="viewController">
@@ -106,8 +106,8 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IaY-z5-WuW">
-                                                    <rect key="frame" x="100" y="5" width="119" height="36"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IaY-z5-WuW">
+                                                    <rect key="frame" x="138" y="5" width="119" height="36"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="119" id="8bT-yd-mUb"/>
                                                         <constraint firstAttribute="height" constant="36" id="jJ8-bF-5nq"/>
@@ -123,8 +123,8 @@
                                                 <constraint firstAttribute="centerX" secondItem="hXA-XU-bio" secondAttribute="centerX" id="3na-cd-xOP"/>
                                                 <constraint firstItem="IaY-z5-WuW" firstAttribute="centerY" secondItem="lC8-rz-sFp" secondAttribute="centerY" id="5T7-sJ-cLg"/>
                                                 <constraint firstItem="Zy7-yd-wFn" firstAttribute="baseline" secondItem="hXA-XU-bio" secondAttribute="baseline" id="Oxz-cr-3c4"/>
+                                                <constraint firstItem="hXA-XU-bio" firstAttribute="leading" secondItem="IaY-z5-WuW" secondAttribute="trailing" constant="22" id="XEr-xc-yqD"/>
                                                 <constraint firstItem="Zy7-yd-wFn" firstAttribute="top" secondItem="lC8-rz-sFp" secondAttribute="topMargin" constant="4" id="fIV-bW-Z3x"/>
-                                                <constraint firstItem="hXA-XU-bio" firstAttribute="leading" secondItem="IaY-z5-WuW" secondAttribute="trailing" constant="60" id="s3j-OT-QiT"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -167,7 +167,7 @@
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="学分绩点" id="Lfb-1G-t5K" colorLabel="IBBuiltInLabel-Gray">
+                    <navigationItem key="navigationItem" title="绩点预测" id="Lfb-1G-t5K" colorLabel="IBBuiltInLabel-Gray">
                         <barButtonItem key="backBarButtonItem" title="返回" id="YUh-B4-du0">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
@@ -210,13 +210,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lok-L6-YYD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lok-L6-YYD" customClass="UICountingLabel" customModule="aa" customModuleProvider="target">
                                 <rect key="frame" x="265" y="282" width="72" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎加入IOS开发团队" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7V-Kh-hZP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢迎加入I黑大开发团队" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7V-Kh-hZP">
                                 <rect key="frame" x="187" y="519" width="226" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="5OV-GH-yJx"/>
@@ -236,6 +236,16 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的学分绩点为" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qb-QD-kL4">
+                                <rect key="frame" x="169" y="212" width="263" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="263" id="LND-BC-0zU"/>
+                                    <constraint firstAttribute="height" constant="57" id="MvX-93-1uB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -244,7 +254,9 @@
                             <constraint firstAttribute="centerX" secondItem="Lok-L6-YYD" secondAttribute="centerX" constant="-1" id="QpM-Kw-ttx"/>
                             <constraint firstItem="qYa-JT-KCI" firstAttribute="top" secondItem="A7V-Kh-hZP" secondAttribute="bottom" constant="8" symbolic="YES" id="b2n-1j-tXf"/>
                             <constraint firstItem="qYa-JT-KCI" firstAttribute="top" secondItem="oos-8G-6jm" secondAttribute="bottom" constant="32" id="hlX-rm-gRf"/>
+                            <constraint firstItem="Lok-L6-YYD" firstAttribute="top" secondItem="3qb-QD-kL4" secondAttribute="bottom" constant="13" id="ila-iR-sPX"/>
                             <constraint firstAttribute="centerX" secondItem="A7V-Kh-hZP" secondAttribute="centerX" id="k9P-5V-rnP"/>
+                            <constraint firstAttribute="centerX" secondItem="3qb-QD-kL4" secondAttribute="centerX" id="niP-zr-Uvc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="计算结果" id="jYR-RX-CzW"/>
