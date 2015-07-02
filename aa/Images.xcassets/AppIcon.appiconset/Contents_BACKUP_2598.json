@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-<<<<<<< .merge_file_va3Ktr
+<<<<<<< .merge_file_StiKuu
       "idiom" : "iphone",
       "size" : "29x29",
       "scale" : "2x"
@@ -95,15 +95,15 @@
       "idiom" : "iphone",
 	  "filename" : "Icon-60@3x.png",
       "scale" : "3x"
->>>>>>> .merge_file_iAoMzT
+>>>>>>> .merge_file_aJPTMg
     }
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
   }
-<<<<<<< .merge_file_va3Ktr
+<<<<<<< .merge_file_StiKuu
 }
 =======
 }
->>>>>>> .merge_file_iAoMzT
+>>>>>>> .merge_file_aJPTMg

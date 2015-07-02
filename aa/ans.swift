@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 class ans: UIViewController {
 
     @IBOutlet weak var ans: UICountingLabel!
@@ -15,6 +16,7 @@ class ans: UIViewController {
         var top:Double = 0
         var down:Double = 0
         // Do any additional setup after loading the view.
+<<<<<<< .merge_file_iLYZls
         for i in 0 ..< 100
         {
             if myData.score[i] < 60.0
@@ -23,6 +25,24 @@ class ans: UIViewController {
             }
             top += myData.score[i] * myData.cent[i]
             down += myData.cent[i]
+=======
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        var description =  NSEntityDescription.entityForName("DATA", inManagedObjectContext: appDelegate.managedObjectContext!)
+        var request = NSFetchRequest()
+        request.entity = description
+        var array = appDelegate.managedObjectContext?.executeFetchRequest(request, error: nil)
+        
+        for(var i = 0;i<array!.count;i++)
+        {
+            let p = array![i] as! DATA
+            if Double(p.score) < 60.0
+            {
+                continue
+            }
+            top += Double(p.score) * Double(p.cent)
+            down += Double(p.cent)
+>>>>>>> .merge_file_RfvC2h
         }
         if(down == 0)
         {

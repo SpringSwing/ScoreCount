@@ -15,7 +15,11 @@
 		045ED1721B31AF5200FF33AD /* ans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1711B31AF5200FF33AD /* ans.swift */; };
 		045ED1741B31AF5600FF33AD /* count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1731B31AF5600FF33AD /* count.swift */; };
 		045ED1761B31AF5A00FF33AD /* newCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1751B31AF5A00FF33AD /* newCell.swift */; };
+<<<<<<< HEAD
 		045ED1781B31AF7F00FF33AD /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED1771B31AF7F00FF33AD /* data.swift */; };
+=======
+		E6522DCC1B415E1900DA5E5A /* DATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6522DCB1B415E1900DA5E5A /* DATA.swift */; };
+>>>>>>> 2009585b446e4718d56bf8437bae2e94fe843588
 		E6E3A2A21B3FFB5300B8BEA9 /* UICountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E3A2A11B3FFB5300B8BEA9 /* UICountingLabel.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +46,11 @@
 		045ED1711B31AF5200FF33AD /* ans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ans.swift; sourceTree = "<group>"; };
 		045ED1731B31AF5600FF33AD /* count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = count.swift; sourceTree = "<group>"; };
 		045ED1751B31AF5A00FF33AD /* newCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCell.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		045ED1771B31AF7F00FF33AD /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+=======
+		E6522DCB1B415E1900DA5E5A /* DATA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DATA.swift; sourceTree = "<group>"; };
+>>>>>>> 2009585b446e4718d56bf8437bae2e94fe843588
 		E6E3A2A11B3FFB5300B8BEA9 /* UICountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICountingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,8 +94,13 @@
 			isa = PBXGroup;
 			children = (
 				045ED14A1B31AF0B00FF33AD /* AppDelegate.swift */,
+<<<<<<< HEAD
 				045ED1771B31AF7F00FF33AD /* data.swift */,
 				045ED1541B31AF0B00FF33AD /* Images.xcassets */,
+=======
+				045ED1541B31AF0B00FF33AD /* Images.xcassets */,
+				E6522DCB1B415E1900DA5E5A /* DATA.swift */,
+>>>>>>> 2009585b446e4718d56bf8437bae2e94fe843588
 				045ED1711B31AF5200FF33AD /* ans.swift */,
 				045ED1731B31AF5600FF33AD /* count.swift */,
 				045ED16F1B31AF4C00FF33AD /* Main.storyboard */,
@@ -226,9 +239,15 @@
 				045ED1741B31AF5600FF33AD /* count.swift in Sources */,
 				045ED1761B31AF5A00FF33AD /* newCell.swift in Sources */,
 				E6E3A2A21B3FFB5300B8BEA9 /* UICountingLabel.swift in Sources */,
+<<<<<<< HEAD
 				045ED14B1B31AF0B00FF33AD /* AppDelegate.swift in Sources */,
 				045ED1721B31AF5200FF33AD /* ans.swift in Sources */,
 				045ED1781B31AF7F00FF33AD /* data.swift in Sources */,
+=======
+				E6522DCC1B415E1900DA5E5A /* DATA.swift in Sources */,
+				045ED14B1B31AF0B00FF33AD /* AppDelegate.swift in Sources */,
+				045ED1721B31AF5200FF33AD /* ans.swift in Sources */,
+>>>>>>> 2009585b446e4718d56bf8437bae2e94fe843588
 				045ED14E1B31AF0B00FF33AD /* aa.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
